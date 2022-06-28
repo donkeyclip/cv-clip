@@ -1,0 +1,84 @@
+* {
+  --slideBackgroundColor: {{ initParams.stylesheet.slideBackgroundColor }};
+  --textColor: {{ initParams.stylesheet.textColor }};
+}
+
+
+.edu-exp{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  overflow: hidden;
+  background-color: var(--slideBackgroundColor);
+  transform: scale(0.9);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: var(--textColor);
+  font-family: 'Alegreya', serif;
+}
+
+.edu-exp{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+.edu-exp .content{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 15px;
+}
+
+.education{
+  width: 90%;
+}
+
+.experience{
+  width: 90%;
+}
+
+.edu-wrapper,.exp-wrapper{
+  width: 25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.edu,.exp{
+  position: relative;
+  top: 150%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.edu-exp-title{
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.edu-exp .year{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.edu-exp .subtitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.edu-exp .description{
+  font-size: 15px;
+}
+
+.edu-exp .title{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}

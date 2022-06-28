@@ -1,0 +1,26 @@
+<div class="edu-exp">
+  <div class="education">
+    <div class="title">Education</div>
+    <div class="content">
+      <div class="edu-wrapper" mc-for="key,item" mc-of="initParams.education">
+        <div class="edu">
+          <div class="edu-exp-title">{{item.title}}</div>
+          <div class="subtitle">{{item.subtitle}} / {{item.year}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="experience">
+    <div class="title">Work Experience</div>
+    <div class="content">
+      <div class="exp-wrapper" mc-for="key,item" mc-of="initParams.experience">
+        <div class="exp">
+          <div class="edu-exp-title">{{item.title}}</div>
+          <div class="year">{{item.year}}</div>
+          <div class="subtitle">{{item.subtitle}}</div>
+          <div class="description">{{item.description}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 

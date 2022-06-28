@@ -1,0 +1,85 @@
+* {
+  --slideBackgroundColor: {{ initParams.stylesheet.slideBackgroundColor }};
+  --textColor: {{ initParams.stylesheet.textColor }};
+  --secondaryColor: {{ initParams.stylesheet.secondaryColor }};
+  --secondarytextColor: {{ initParams.stylesheet.secondarytextColor }};
+}
+
+
+.portfolio{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  overflow: hidden;
+  background-color: var(--slideBackgroundColor);
+  transform: scale(0.9);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: var(--textColor);
+  font-family: 'Alegreya', serif;
+}
+
+.project{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  background-color:var(--secondaryColor) ;
+  color: var(--secondarytextColor);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio .title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+.info{
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.details{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.project .name{
+  font-size: 30px;
+}
+
+.project .description{
+  width: 600px;
+}
+
+.thanks{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}

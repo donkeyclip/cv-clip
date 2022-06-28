@@ -1,0 +1,66 @@
+* {
+  --slideBackgroundColor: {{ initParams.stylesheet.slideBackgroundColor }};
+  --textColor: {{ initParams.stylesheet.textColor }};
+}
+
+.contact{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -100%;
+  overflow: hidden;
+  background-color: var(--slideBackgroundColor);
+  transform: scale(0.9);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: var(--textColor);
+  font-family: 'Alegreya', serif;
+}
+
+.contact .title{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+.info-container{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  font-family: 'Alegreya', serif;
+}
+
+.info-wrapper{
+  position: relative;
+  overflow: hidden;
+}
+
+.info{
+  position: relative;
+  left: -150%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.logo{
+  width: 64px;
+  height: 64px;
+}
+
+.contact .name,.contact .colon,.contact .value{
+  font-size: 30px;
+}
+
+.info .value{
+  font-style: italic;
+}
