@@ -1,8 +1,8 @@
 * {
   --slideBackgroundColor: {{ initParams.stylesheet.slideBackgroundColor }};
   --textColor: {{ initParams.stylesheet.textColor }};
+  --secondaryColor: {{ initParams.stylesheet.secondaryColor }}
 }
-
 .contact{
   position: absolute;
   width: 100%;
@@ -16,9 +16,18 @@
   font-family: 'Alegreya', serif;
 }
 
+/* .contact .wrapper{
+  position: absolute;
+  background-color: var(--secondaryColor);
+  top: 0%;
+  width: 22%;
+  height: 0%;
+  left: 5%;
+} */
+
 .contact .title{
   position: absolute;
-  top: 10%;
+  top: -50%;
   left: 10%;
   font-family: 'Nunito', sans-serif;
   font-size: 30px;

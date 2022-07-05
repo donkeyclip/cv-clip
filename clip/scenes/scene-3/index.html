@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="skills-container">
     <div class="software-skills">
       <div class="title">Software Skills</div>
@@ -12,4 +12,33 @@
         <div class="bar-chart-personal-skills"></div>
       </div>
     </div>
+</div> -->
+
+<div class="skills-container">
+  <div class="software-skills">
+    <div class="title">Software Skills</div>
+    <div class="skills">
+      <div class="skill-wrapper" mc-for="key,item" mc-of="initParams.softwareSkills">
+        <div class="skill">
+          <div class="name">{{item.name}}</div>
+          <div class="chart">
+            <div class="{{ 'progress-bar progress-bar-' + key }}"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="personal-skills">
+    <div class="title">Personal Skills</div>
+    <div class="skills">
+      <div class="skill-wrapper" mc-for="key,item" mc-of="initParams.personalSkills">
+        <div class="skill">
+          <div class="name">{{item.name}}</div>
+          <div class="chart">
+            <div class="{{ 'progress-bar progress-bar-' + key }}"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

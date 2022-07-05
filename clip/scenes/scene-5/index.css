@@ -2,6 +2,7 @@
   --slideBackgroundColor: {{ initParams.stylesheet.slideBackgroundColor }};
   --textColor: {{ initParams.stylesheet.textColor }};
   --secondaryColor: {{ initParams.stylesheet.secondaryColor }};
+  --tertiaryColor: {{ initParams.stylesheet.tertiaryColor }};
   --secondarytextColor: {{ initParams.stylesheet.secondarytextColor }};
 }
 
@@ -27,7 +28,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%) scale(0);
-  background-color:var(--secondaryColor) ;
+  background-color:var(--tertiaryColor) ;
   color: var(--secondarytextColor);
   border-radius: 20px;
   display: flex;
@@ -82,4 +83,5 @@
   opacity: 0;
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
+  color: var(--tertiaryColor);
 }

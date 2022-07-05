@@ -8,6 +8,7 @@ export default {
       slideBackgroundColor: { type: "color" },
       secondaryColor: { type: "color" },
       secondarytextColor: { type: "color" },
+      tertiaryColor: { type: "color" },
     },
   },
   intro: {
@@ -36,27 +37,28 @@ export default {
       },
     },
   },
-  // softwareSkills: {
-  //   label: "Software Skills",
-  //   type: "array",
-  //   items: {
-  //     type: "object",
-  //     props: {
-  //       name: { type: "string" },
-  //       value: { type: "number" },
-  //     },
-  //   },
-  // },
-      // softwareSkills: {
-  //   label: "Software Skills",
-  //   type: "object",
-  //   props: {
-  //       name1: { type: "string" },
-  //       name2: { type: "string" },
-  //       value1: { type: "string" },
-  //       value2: { type: "string" },
-  //   },
-  // },
+  softwareSkills: {
+    label: "Software Skills",
+    type: "array",
+    items: {
+      type: "object",
+      props: {
+        name: { type: "string" },
+        value: { type: "string" },
+      },
+    },
+  },
+  personalSkills: {
+    label: "Personal Skills",
+    type: "array",
+    items: {
+      type: "object",
+      props: {
+        name: { type: "string" },
+        value: { type: "string" },
+      },
+    },
+  },
   education: {
     label: "Education",
     type: "array",

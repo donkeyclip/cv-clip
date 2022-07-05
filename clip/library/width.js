@@ -1,5 +1,5 @@
 import { CSSEffect } from "@donkeyclip/motorcortex";
-export const width = (width,selector, duration, easing = "linear") =>
+export const width = (width,selector, duration, delay= 0,easing = "linear") =>
   new CSSEffect(
     {
       animatedAttrs: {
@@ -9,6 +9,7 @@ export const width = (width,selector, duration, easing = "linear") =>
     {
       selector,
       duration,
+      delay,
       easing,
     }
   );
