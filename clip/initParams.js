@@ -50,37 +50,37 @@ export default [
       softwareSkills:[
           {
             name: "Abode Photoshop",
-            value: "85%",
+            value: 85,
           },
           {
             name: "Adobe Illustrator",
-            value: "35%",
+            value: 35,
           },
           {
             name: "Adobe After Effects",
-            value: "74%",
+            value: 74,
           },
           {
             name: "Apple Motion",
-            value: "62%",
+            value: 62,
           },
       ],
       personalSkills:[
         {
           name: "Creativity",
-          value: "90%",
+          value: 90,
         },
         {
           name: "Teamwork",
-          value: "57%",
+          value: 57,
         },
         {
           name: "Communication",
-          value: "45%",
+          value: 45,
         },
         {
           name: "Organizational",
-          value: "78%",
+          value: 78,
         },
     ],
       education:[

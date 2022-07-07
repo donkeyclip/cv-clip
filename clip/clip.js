@@ -8,6 +8,10 @@ import scene3 from "./scenes/scene-3";
 import scene4 from "./scenes/scene-4";
 import scene5 from "./scenes/scene-5";
 import initParamsValidationRules from "./initParamsValidationRules";
+import { width } from "./library/width";
+import { scale } from "./library/scale";
+import { moveLeft } from "./library/moveLeft";
+import { moveRight } from "./library/moveRight";
 
 export const clip = new HTMLClip({
   html,
@@ -29,6 +33,6 @@ export const clip = new HTMLClip({
 
 clip.addIncident(scene1, 0);
 clip.addIncident(scene2, 9000);
-clip.addIncident(scene3,15000);
-clip.addIncident(scene4,22000);
+clip.addIncident(scene3,14000);
+clip.addIncident(scene4,21000);
 clip.addIncident(scene5,27000);

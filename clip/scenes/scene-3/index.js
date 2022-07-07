@@ -26,17 +26,15 @@ clip.addIncident(scale(1,".skills-container",200,0,"easeOutSine"),1000)
 
 clip.addIncident(moveLeft("10%",".software-skills .title",500,0,"easeInOutCubic"),1200)
 clip.addIncident(moveLeft("0%",".software-skills .skill",500,"@stagger(0,400)","easeInOutCubic"),1200)
-for (let i = 0; i < initParams[0].value.softwareSkills.length; i++) {
-  clip.addIncident(width(initParams[0].value.softwareSkills[i].value,`.software-skills .progress-bar-${i}`,1500),1700)
-}
+
 
 clip.addIncident(moveLeft("10%",".personal-skills .title",500,0,"easeInOutCubic"),3200)
 clip.addIncident(moveLeft("0%",".personal-skills .skill",500,"@stagger(0,400)","easeInOutCubic"),3200)
-for (let i = 0; i < initParams[0].value.personalSkills.length; i++) {
-  clip.addIncident(width(initParams[0].value.personalSkills[i].value,`.personal-skills .progress-bar-${i}`,1500),3700)
-}
+
 
 clip.addIncident(scale(0.9,".skills-container",200,0,"easeOutSine"),6500)
 clip.addIncident(moveRight("100%",".skills-container",500,0,"easeInOutQuint"),7000)
+clip.addIncident(width("100%",".software-skills .progress-bar",1500,"@stagger(0,400)","easeOutSine"),1700)
+clip.addIncident(width("100%",".personal-skills .progress-bar",1500,"@stagger(0,400)","easeOutSine"),3700)
 
 export default clip;

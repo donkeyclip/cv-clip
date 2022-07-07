@@ -44,7 +44,7 @@ export default {
       type: "object",
       props: {
         name: { type: "string" },
-        value: { type: "string" },
+        value: { type: "number" },
       },
     },
   },
@@ -55,7 +55,7 @@ export default {
       type: "object",
       props: {
         name: { type: "string" },
-        value: { type: "string" },
+        value: { type: "number" },
       },
     },
   },

@@ -32,8 +32,8 @@ clip.addIncident(moveTop("0%",".edu",300,"@stagger(0,300)","easeInOutQuint"),170
 clip.addIncident(moveTop("0%",".education",500,0,"easeInOutCubic"),2200)
 clip.addIncident(moveTop("0%",".experience",500,0,"easeInOutCubic"),2200)
 clip.addIncident(moveTop("0%",".exp",300,"@stagger(0,300)","easeInOutQuint"),2700)
-clip.addIncident(scale(0.9,".edu-exp",200,0,"easeOutSine"),4000)
-clip.addIncident(moveRight("100%",".edu-exp",500,0,"easeInOutQuint"),5000)
+clip.addIncident(scale(0.9,".edu-exp",200,0,"easeOutSine"),5000)
+clip.addIncident(moveRight("100%",".edu-exp",500,0,"easeInOutQuint"),6000)
 
 
 export default clip;

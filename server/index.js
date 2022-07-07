@@ -5,6 +5,7 @@ import clipId from "./id";
 import initParams from "../clip/initParams";
 import initParamsApply from "./scripts/initParamsApply";
 
+
 const liveDef = clip.exportLiveDefinition();
 liveDef.props.id = clip.id;
 
@@ -90,3 +91,5 @@ if (searchOptions.initParams) {
   }, 100);
 }
 
+window.player = player;
+window.cfd = utils.clipFromDefinition;
