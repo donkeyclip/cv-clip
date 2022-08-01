@@ -55,6 +55,6 @@
     "webpack-dev-server": "4.9.2"
   },
   "dependencies": {
-    "@donkeyclip/motorcortex-graphs": "^2.2.0"
+    "@donkeyclip/motorcortex-graphs": "2.2.1"
   }
 }
