@@ -27,8 +27,8 @@
     "@babel/core": "7.18.5",
     "@babel/eslint-parser": "7.18.2",
     "@babel/preset-env": "7.18.2",
-    "@donkeyclip/motorcortex": "9.4.1",
-    "@donkeyclip/motorcortex-player": "^2.10.5",
+    "@donkeyclip/motorcortex": "9.5.7",
+    "@donkeyclip/motorcortex-player": "2.10.8",
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-commonjs": "22.0.0",
     "@rollup/plugin-json": "4.1.0",
@@ -50,11 +50,12 @@
     "postcss-loader": "7.0.0",
     "prettier": "2.7.0",
     "rimraf": "3.0.2",
-    "webpack": "5.73.0",
+    "webpack": "5.74.0",
     "webpack-cli": "4.10.0",
-    "webpack-dev-server": "4.9.2"
+    "webpack-dev-server": "4.11.1"
   },
   "dependencies": {
-    "@donkeyclip/motorcortex-graphs": "^2.2.0"
+    "@donkeyclip/motorcortex-anime": "^3.1.1",
+    "@donkeyclip/motorcortex-graphs": "^2.2.2"
   }
 }
